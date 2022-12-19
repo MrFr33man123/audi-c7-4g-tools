@@ -22,3 +22,32 @@ There are 4 Funktions to this date:
 
 # TODO
 copie_scr.sh not looked into function
+
+## Knowledge
+
+### Shortcuts
+
+| Shortcut   | Function |
+|------------|----------|
+| CAR + Back | Red Menu |
+| CAR + Menu | Green Engineering Menu|
+|Menu + Jog + Top Right| Reboot MMI |
+
+### How to Start Update
+
+1. Open Red Menu
+2. Insert SD Card in Slot 1
+3. Choose Update (down right option)
+4. After Update click continue
+5. Choose Skip Documentation
+6. Remove SD Card
+
+
+### Time
+
+| Update                 | Estimatet Time |
+|------------------------|----------------|
+| FW Update              | 20-30min       |
+| Map Update             | 3h             |
+| Scripts for Activation | 10sek - 2min   |
+
