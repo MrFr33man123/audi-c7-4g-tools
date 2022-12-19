@@ -27,11 +27,12 @@ copie_scr.sh not looked into function
 
 ### Shortcuts
 
-| Shortcut   | Function |
-|------------|----------|
-| CAR + Back | Red Menu |
-| CAR + Menu | Green Engineering Menu|
-|Menu + Jog + Top Right| Reboot MMI |
+| Shortcut   | Function                 |
+|------------|--------------------------|
+| CAR + Back | Red Menu                 |
+| CAR + Menu | Green Engineering Menu   |
+|Menu + Jog + Top Right| Reboot MMI       |
+| Media + TEL | Screenshot and save to SD |
 
 ### How to Start Update
 
