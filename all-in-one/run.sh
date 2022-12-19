@@ -128,7 +128,7 @@ then
     cp -v -r /mnt/hmisql/DataPST.db $SDPath/db/hmisql/new/
 
     show_screen "gem_done.png"
-    echo done > $SDPath/.doneGEM
+    echo "done" > $SDPath/.doneGEM
     rm -f  $SDPath/.startedGEM
 fi
 
@@ -166,7 +166,7 @@ then
     show_screen "mmi_hack_done.png"
 
     # Erstellung der .done Datei (Zeichen, dass das Script fertig ist)
-    echo done > $SDPath/.doneMPC
+    echo "done" > $SDPath/.doneMPC
 
     # Loeschen der .started Datei(Script durchgelaufen)
     rm -f  $SDPath/.startedMPC

@@ -20,3 +20,5 @@ There are 4 Funktions to this date:
 3. Map Activator after Update
 4. For reverse engineering to understand the system better (usually keep that to 0)
 
+# TODO
+copie_scr.sh not looked into function
