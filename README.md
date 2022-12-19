@@ -42,7 +42,6 @@ copie_scr.sh not looked into function
 5. Choose Skip Documentation
 6. Remove SD Card
 
-
 ### Time
 
 | Update                 | Estimatet Time |
