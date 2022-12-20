@@ -93,7 +93,6 @@ EOF
 #################################################################
 
 SELECTION="$GEM""$MPC""$AMA""$GFS"
-echo $SELECTION
 show_screen "${SELECTION}.png"
 
 
@@ -101,7 +100,7 @@ show_screen "${SELECTION}.png"
 # Green Engineering Menu                                        #
 #################################################################
 
-if [[ GEM == 1 ]]
+if [[ $GEM == 1 ]]
 then
     # Bildhinweis zum Starten des GEM
     show_screen "gem_start.png"
@@ -142,7 +141,7 @@ fi
 #################################################################
 # MMI Picture Changer                                           #
 #################################################################
-if [[ MPC == 1 ]]
+if [[ $MPC == 1 ]]
 then
     # Bildhinweis zum Starten des MPC
     show_screen "mmi_hack_start.png"
@@ -184,7 +183,7 @@ fi
 # Audi Map Activator                                            #
 #################################################################
 
-if [[ AMA == 1 ]]
+if [[ $AMA == 1 ]]
 then
     # Log file
     logfile="$SDPath/installAMA.log"
@@ -309,7 +308,7 @@ fi
 # Get Filesystem                                                #
 #################################################################
 
-if [[ GFS == 1 ]]
+if [[ $GFS == 1 ]]
 then
      # Create a temporary file to store the filesystem structure
     temp_file=$SDPath/tmp
