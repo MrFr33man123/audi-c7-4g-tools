@@ -23,7 +23,7 @@ mount -u $SDPath
 
 # Funktions Block
 show_screen(){
-    $SDPath/_utils/showScreen "$SDPath/screens/$1"
+    $SDPath/_utils/showScreen "$SDPath/_screens/$1"
 }
 
 # Save message log to file
@@ -88,6 +88,15 @@ EOF
 # Function Block End                                            #
 #################################################################
 
+#################################################################
+# Show Selection made                                           #
+#################################################################
+
+SELECTION+="$GEM"
+SELECTION+="$MPC"
+SELECTION+="$AMA"
+SELECTION+="$GFS"
+show_screen "${SELECTION}.png"
 
 
 #################################################################
