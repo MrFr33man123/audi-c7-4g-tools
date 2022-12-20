@@ -92,10 +92,8 @@ EOF
 # Show Selection made                                           #
 #################################################################
 
-SELECTION+="$GEM"
-SELECTION+="$MPC"
-SELECTION+="$AMA"
-SELECTION+="$GFS"
+SELECTION="$GEM""$MPC""$AMA""$GFS"
+echo $SELECTION
 show_screen "${SELECTION}.png"
 
 
