@@ -29,14 +29,14 @@ copie_scr.sh not looked into function
 
 | Shortcut   | Function                 |
 |------------|--------------------------|
-| CAR + Back | Red Menu                 |
-| CAR + Menu | Green Engineering Menu   |
+| CAR + Back | Red Engineering Menu               |
+| CAR + Menu | Green Engineering/Developer Menu   |
 |Menu + Jog + Top Right| Reboot MMI       |
 | Media + TEL | Screenshot and save to SD |
 
 ### How to Start Update
 
-1. Open Red Menu
+1. Open Red Menu (CAR + Back)
 2. Insert SD Card in Slot 1
 3. Choose Update (down right option)
 4. After Update click continue
@@ -45,7 +45,7 @@ copie_scr.sh not looked into function
 
 ### Time
 
-| Update                 | Estimatet Time |
+| Update                 | Estimated Time |
 |------------------------|----------------|
 | FW Update              | 20-30min       |
 | Map Update             | 3h             |
